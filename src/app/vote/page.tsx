@@ -202,7 +202,7 @@ export default function Home() {
           <div className={`flex flex-col mt-4  gap-6 px-10`}>
             <div className="flex justify-between">
               <div className="">1. Modern Desi</div>
-              <div className="">{votes[2]+ 17} Votes</div>
+              <div className="">{votes[2]-2007} Votes</div>
             </div>
             
             <div className="flex justify-between">
