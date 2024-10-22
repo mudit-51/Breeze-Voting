@@ -198,24 +198,10 @@ export default function Home() {
       {votes && (
         <div className={`${acidg.className} mt-8`}>
           <div className="text-center">Current voting statistics</div>
+          <div className="text-center">RESULTS PENDING.....</div>
           
-          <div className={`flex flex-col mt-4  gap-6 px-10`}>
-            <div className="flex justify-between">
-              <div className="">1. Modern Desi</div>
-              <div className="">{votes[2]-2007} Votes</div>
-            </div>
-            
-            <div className="flex justify-between">
-              <div className="">2. 90's Sensation</div>
-              <div className="">{votes[0]+135} Votes</div>
-            </div>  
-            
-            <div className="flex justify-between">
-              <div className="">3. Techno-Cyberpunk</div>
-              <div className="">{votes[1]} Votes</div>
-            </div>
+          
           </div>
-        </div>
       )}
     </div>
   );
