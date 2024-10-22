@@ -202,7 +202,7 @@ export default function Home() {
             
             <div className="flex justify-between">
               <div className="">1. 90's Sensation</div>
-              <div className="">{votes[0]+100} Votes</div>
+              <div className="">{votes[0]+135} Votes</div>
             </div>
             
             <div className="flex justify-between">
@@ -212,7 +212,7 @@ export default function Home() {
             
             <div className="flex justify-between">
               <div className="">3. Techno-Cyberpunk</div>
-              <div className="">{votes[1]+15} Votes</div>
+              <div className="">{votes[1]+40} Votes</div>
             </div>
           </div>
         </div>
